@@ -13,8 +13,19 @@ Effective inventory and sales management are critical in the retail sector. This
 •	Statistically validate differences in vendor profitability
 ________________________________________
 Dataset
-•	Multiple CSV files located in /data/ folder (sales, vendors, inventory)
-•	Summary table created from ingested data and used for analysis
+•The dataset was extracted from the vendor_sales_summary table in SQL Server and contains information on:
+•	Vendor Name
+•	Brand Description
+•	Total Sales & Purchases
+•	Gross Profit
+•	Profit Margin
+•	Stock Turnover
+•	Purchase Price
+•	Freight Cost
+•	Tax Amount
+•	Sales & Purchase Quantity
+
+
 ________________________________________
 Tools & Technologies
 •	SQL (Common Table Expressions, Joins, Filtering)
@@ -49,16 +60,16 @@ Research Questions & Key Findings
 3.	Bulk Purchasing Impact: 72% cost savings per unit in large orders
 4.	Inventory Turnover: $2.71M worth of unsold inventory
 5.	Vendor Profitability:
-o	High Vendors: Mean Margin = 31.17%
-o	Low Vendors: Mean Margin = 41.55%
+	  • High Vendors: Mean Margin = 31.17%
+    •	Low Vendors: Mean Margin = 41.55%
 6.	Hypothesis Testing: Statistically significant difference in profit margins → distinct vendor strategies
 ________________________________________
 Dashboard
 •	Power BI Dashboard shows:
-o	Vendor-wise Sales and Margins
-o	Inventory Turnover
-o	Bulk Purchase Savings
-o	Performance Heatmaps
+•	Vendor-wise Sales and Margins
+•	Inventory Turnover
+•	Bulk Purchase Savings
+• Performance Heatmaps
 ________________________________________
 
 Final Recommendations
